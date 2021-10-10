@@ -42,7 +42,7 @@ function App() {
   return (
     <>
     <Router>
-     <Navbar title='pink' mode={mode} toggleMode={toggleMode}/>
+     <Navbar title='Pinaki' mode={mode} toggleMode={toggleMode}/>
      <Alert alert={alert} />
      <div className="container my-3">
      <Switch>
@@ -50,7 +50,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/">
-          <TextForm  showAlert={showAlert} heading="Enter your data for analysis" mode={mode}/>
+          <TextForm  showAlert={showAlert} heading="Enter data for analysis" mode={mode}/>
           </Route>
      </Switch>
     
